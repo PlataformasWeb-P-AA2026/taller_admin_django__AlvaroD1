@@ -12,6 +12,9 @@ En este escenario se demuestra la consistencia de los datos almacenados de forma
 ### Escenario 2: PostgreSQL
 En este escenario se migró el proyecto para trabajar con un motor robusto en red. Se utilizó **Docker** para levantar el contenedor de PostgreSQL y la herramienta **pgAdmin** para la inspección visual, sincronizado en tiempo real con el **Admin de Django**.
 
+<img width="1920" height="1200" alt="Captura desde 2026-06-16 12-48-01" src="https://github.com/user-attachments/assets/12b93883-fff8-4f63-84d1-0f32c8ec0d76" />
+
+
 #### Configuración utilizada en `settings.py`:
 ```python
 DATABASES = {
